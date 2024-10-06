@@ -482,15 +482,15 @@ footer p {
   .creation_section {
     grid-template-columns: repeat(4, 1fr);
   }
-  .creation_section div {
-    height: 80vh;
-  }
   .desc-txt {
     padding: 4em;
   }
   .creation_section div {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
+  }
+  .creation_section div p {
+    padding-bottom: 2rem;
   }
   .earth {
     background-image: url(images/desktop/image-deep-earth.jpg);

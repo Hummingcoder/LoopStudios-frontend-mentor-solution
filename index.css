@@ -2,7 +2,7 @@
   --color-white: hsl(0, 0%, 100%);
   --color-black: hsl(0, 0%, 0%);
   --color-dark-gray: hsl(0, 0%, 69%);
-  --color-very-dark-gray: hsl(0, 0%, 40%);
+  --color-very-dark-gray: hsl(0, 0%, 48%);
 }
 
 * {
@@ -243,7 +243,7 @@ header.show .navBar {
   top: 0;
   background: #00000069;
   z-index: 98;
-  transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 0.4s ease;
   cursor: pointer;
 }
 .creation_section div:hover::after,

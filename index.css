@@ -155,6 +155,7 @@ header.show .navBar {
 .hero {
   width: 100%;
   height: 90vh;
+  max-height: 720px;
   background: url(images/mobile/image-hero.jpg);
   background-position: center;
   background-size: cover;
@@ -180,7 +181,9 @@ header.show .navBar {
 }
 .desc {
   width: 100%;
-  min-height: 80vh;
+  min-height: 400px;
+  height: 80vh;
+  max-height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -230,6 +233,7 @@ header.show .navBar {
 .creation_section div {
   width: 100%;
   height: 130px;
+  max-height: 500px;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -402,7 +406,6 @@ footer p {
   }
   .hero {
     background-image: url(images/desktop/image-hero.jpg);
-    min-height: 100vh;
     padding-left: 10%;
     justify-content: start;
     align-items: end;
